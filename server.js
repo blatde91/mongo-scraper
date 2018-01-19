@@ -4,7 +4,7 @@ const exphbs = require("express-handlebars");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const request = require("request");
-const request = require("cheerio");
+const cheerio = require("cheerio");
 
 const db = require("./models");
 
